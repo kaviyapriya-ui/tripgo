@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: whitesmoke;
+}
+header{
+      background-color: navy;
+      display: flex;
+      padding: 15px 40px;
+      justify-content: space-between;
+      align-items: center;
+}
+header h2 {
+    color: whitesmoke;
+    font-size: 25px;
+}
+nav a {
+        color: whitesmoke;
+        text-decoration: none;
+        margin-left:20px;;
+        font-size: 15px;
+}
+.a1 {
+    background-image: url("backgrd.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: black;
+     text-align: center;
+}
+.a1 h2 {
+        font-size: 40px;
+}
+.a1 p {
+        font-size: 20px;
+        margin: 15px 0;
+}
+.a1 button {
+            padding: 15px 25px;
+            font-size: 20px;
+            border-radius: 20px;
+            background: orange;
+}
+.a1 button:hover{
+    background-color: purple;
+    color: whitesmoke;
+}
+section {
+        padding: 60px 40px;
+}
+section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 30px;
+}
+.b {
+    background: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.b1-content {
+            padding: 15px;
+}
+.b1-content img{
+    width:400px;
+    height: 400px;
+}
+.b1-content a {
+            margin-bottom: 10px;
+}
+.b1 img {
+            margin-top: 20px;
+            width: 300px;
+            height: 300px;
+}
+.b1-content a{
+    padding-left: 180px;
+    font-weight: bold;
+}
+.pack{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.pack h3{
+    padding-left:1px;
+}
+.price {
+        padding-left: 175px;
+        color: green;
+        font-weight: bold;
+}
+.contact {
+            background: navy;
+            color: white;
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(to right,white,navy,white);
+ }
+ .foot{
+    padding-top: 20px;
+ }
+ .main{
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+    padding-bottom: 50px;
+ }
+.index img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+.main button{
+    background-color: purple;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5 px;
+}
